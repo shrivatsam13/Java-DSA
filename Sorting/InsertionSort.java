@@ -11,7 +11,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        System.out.println("Insertion sort with time complexity O(n)\n");
+        System.out.println("Insertion sort with time complexity O(n^2)\n");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array:");
         int size = sc.nextInt();
